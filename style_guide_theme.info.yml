@@ -1,0 +1,7 @@
+name: Drupal gulp theme
+type: theme
+description: Theme for gulp in Drupal
+core: 8.x
+base theme: classy
+libraries:
+  - style_guide_theme/style-guide-theme-libraries

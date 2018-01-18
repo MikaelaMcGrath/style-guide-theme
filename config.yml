@@ -1,0 +1,31 @@
+# The name of the site will be used to reference theme files.
+NAME: "style-guide-theme"
+
+# Your project's server will run on localhost:xxxx at this port
+PORT: 3000
+
+# Folder to clean up before running scripts.
+CLEAN:
+  - "css"
+
+# Environments
+ENVIRONMENTS:
+  development: "style-guide:8888"
+  staging: "style-guide:8083"
+  production: "style-guide:8083"
+
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 8"
+
+# Gulp will reference these paths when it copies files
+PATHS:
+  themesRoot: "/themes/custom/"
+  jsRoot: "/src/scripts/"
+  cssRoot: "/css/"
+  sassRoot: "/src/sass/"
+  images: "/src/images/"
+  sass:
+    - "src/sass/style-guide-theme.style.scss"
+    - "fonts"

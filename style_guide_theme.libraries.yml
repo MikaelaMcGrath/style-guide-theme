@@ -1,0 +1,9 @@
+style-guide-theme-libraries:
+  css:
+    theme:
+      css/style-guide-theme.style.css: {}
+  js:
+    js/style-guide-theme.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
